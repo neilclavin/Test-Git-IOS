@@ -21,6 +21,7 @@
 		9660C0F818BCFE9600ED2D7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660C0DA18BCFE9600ED2D7C /* UIKit.framework */; };
 		9660C10018BCFE9600ED2D7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9660C0FE18BCFE9600ED2D7C /* InfoPlist.strings */; };
 		9660C10218BCFE9600ED2D7C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9660C10118BCFE9600ED2D7C /* Git_TestTests.m */; };
+		9660C10D18BD069E00ED2D7C /* NCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9660C10C18BD069E00ED2D7C /* NCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9660C0FD18BCFE9600ED2D7C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		9660C0FF18BCFE9600ED2D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9660C10118BCFE9600ED2D7C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		9660C10B18BD069E00ED2D7C /* NCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCTest.h; sourceTree = "<group>"; };
+		9660C10C18BD069E00ED2D7C /* NCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		9660C0CA18BCFE9600ED2D7C = {
 			isa = PBXGroup;
 			children = (
+				9660C10B18BD069E00ED2D7C /* NCTest.h */,
+				9660C10C18BD069E00ED2D7C /* NCTest.m */,
 				9660C0DC18BCFE9600ED2D7C /* Git Test */,
 				9660C0FB18BCFE9600ED2D7C /* Git TestTests */,
 				9660C0D518BCFE9600ED2D7C /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9660C10D18BD069E00ED2D7C /* NCTest.m in Sources */,
 				9660C0ED18BCFE9600ED2D7C /* NCViewController.m in Sources */,
 				9660C0E318BCFE9600ED2D7C /* main.m in Sources */,
 				9660C0E718BCFE9600ED2D7C /* NCAppDelegate.m in Sources */,
@@ -461,6 +467,7 @@
 				9660C10718BCFE9600ED2D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9660C10818BCFE9600ED2D7C /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				9660C10A18BCFE9600ED2D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
